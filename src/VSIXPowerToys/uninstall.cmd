@@ -1,0 +1,1 @@
+srm.exe uninstall VSIXPowerToys.Shell.dll

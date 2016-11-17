@@ -73,8 +73,14 @@
     <Compile Include="VsUtils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="install.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\sorry_but_I_have_to.snk" />
+    <None Include="uninstall.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="srm.exe">

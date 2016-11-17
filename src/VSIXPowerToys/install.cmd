@@ -1,0 +1,1 @@
+srm.exe install VSIXPowerToys.Shell.dll -codebase
